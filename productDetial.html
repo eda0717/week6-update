@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    香水電商 | ProductDetial
+  </title> 
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container">
+    <nav
+    class="mr-auto navbar navbar-expand-lg navbar-light bg-white container-fuild fixed-top d-flex justify-content-between">
+    <a class="navbar-brand logo" href="index.html">D’PERFUME</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto"></div>
+        <ul class="navbar-nav my-2 my-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link text-grey-200" href="product.html"><span class="material-icons text-grey-200 align-middle">
+                        store
+                    </span>Product <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-grey-200" href="login.html"><span class="material-icons text-grey-200 align-middle">
+                        person
+                    </span>log in</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-grey-200" href="#"><span class="material-icons text-grey-200 align-middle">
+                        favorite
+                    </span>Wishlist <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-grey-200" href="#"><span class="material-icons text-grey-200 align-middle">
+                        shopping_cart
+                    </span>Cart(3) <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>  </header>
+
+  
+<nav class="nav bg-primary mb-8">
+    <div class="container">
+        <ul class="d-flex pl-0">
+            <li><a class="nav-link active text-white" href="#">CHANEL</a></li>
+            <li><a class="nav-link text-white" href="#">Jo Malone</a></li>
+            <li><a class="nav-link text-white" href="#">Curology</a></li>
+            <li><a class="nav-link text-white" href="#">Dior</a></li>
+            <li><a class="nav-link text-white" href="#">Chloe</a></li>
+            <li><a class="nav-link text-white" href="#">ZARA</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row position-relative">
+        <img src="./assets/images/product1.jpg" alt="product1" class="productN°5 col-12 col-lg-8 mb-3 mb-md-4">
+        <div class="col-12 col-lg-4 absolute-right-0">
+            <div class="card-body pt-0">
+                <h2 class="card-title">CHANEL N°5</h2>
+                <p class="card-text text-lg">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
+                <p class="card-price text-lg">NT$4,980</p>
+                <div class="input-group mb-3">
+                    <select class="custom-select" id="inputGroupSelect02">
+                        <option selected value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModalCenter">加入購物車</button>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenter2">
+                        <span class="material-icons text-primary align-middle">
+                            favorite
+                        </span>
+                        <span class="text-black">加入我的收藏</span>
+                    </a>
+                </div>
+
+            <h6 class="text-bold">商品購買須知</h6>
+            <p>產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。 商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。 D’Perfume
+                盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。</p>
+            <h6 class="text-bold">退換貨須知</h6>
+            <p>依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
+        </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>   
+                                <div class="text-primary text-center text-bold text-xl">
+                                    已加入購物車
+                                </div>                               
+                            </div>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>   
+                        <div class="text-primary text-center text-bold text-xl">
+                            已加入我的收藏
+                        </div>                               
+                    </div>                         
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="col-12 col-lg-8">
+            <div class="row">
+                <img src="./assets/images/product2.jpg" alt="product2"
+                    class="productDetial col-12 col-lg-6 mb-3 mb-md-4">
+                <img src="./assets/images/product3.jpg" alt="product1product3"
+                    class="productDetial col-12 col-lg-6 mb-3 mb-md-4">
+                <img src="./assets/images/product1.jpg" alt="product1" class="productN°5 col-12 mb-6 mb-md-8">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="bg-primary">
+      <div class="container d-flex justify-content-start justify-content-lg-between">
+    <div class="footerLogo d-flex align-items-center">
+        <a href="index.html"><img class="mr-3" src="./assets/images/d’Perfumewhite.png" alt="logo"></a>
+        <sapn class="rightsReserved text-white align-middle">© 2020. All Rights Reserved.</sapn>
+    </div>
+    <ul class="footerMenu d-flex align-items-center m-0">
+        <li class="mr-4"><a class="text-white d-block py-4" href="product.html">Product</a></li>
+        <li class="mr-4"><a class="text-white d-block py-4" href="#">Blog</a></li>
+        <li><a class="text-white d-block py-4" href="#">Contact</a></li>
+    </ul>
+</div>    </footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
