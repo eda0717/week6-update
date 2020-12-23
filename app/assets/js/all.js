@@ -11,7 +11,9 @@ $(document).ready(function () {
         }
     });
 
-
+$('#addtocart').on('click',function(){
+    $('#show').toggleClass('display');
+})
 
 
 
