@@ -11,5 +11,8 @@ $(document).ready(function () {
       $('.navbar').removeClass('bg-white');
     }
   });
+  $('#addtocart').on('click', function () {
+    $('#show').toggleClass('display');
+  });
 });
 //# sourceMappingURL=all.js.map

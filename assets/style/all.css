@@ -9809,4 +9809,8 @@ li {
   -webkit-filter: brightness(0.5);
           filter: brightness(0.5); }
 
+.display {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
 /*# sourceMappingURL=all.css.map */
