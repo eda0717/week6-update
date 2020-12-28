@@ -9600,7 +9600,7 @@ a.text-grey-300:hover, a.text-grey-300:focus {
 
 .btn-radius {
   width: 260px;
-  height: 60px;
+  padding: 10px;
   border-radius: 30px;
   font-size: 20px; }
   @media (min-width: 992px) {
@@ -9636,6 +9636,15 @@ a.text-grey-300:hover, a.text-grey-300:focus {
       .nav-link:hover {
         background-color: #fff;
         color: #707070 !important; } }
+
+.absolute-top-center {
+  left: 50% !important; }
+
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 30px;
+  height: 20px; }
 
 @media (max-width: 767px) {
   .footerLogo {
@@ -9711,10 +9720,10 @@ a.text-grey-300:hover, a.text-grey-300:focus {
       height: 540px; } }
 
 .productInfo {
-  width: 66.66%; }
-
-.text-line-through {
-  text-decoration: line-through; }
+  width: 100%; }
+  @media (min-width: 992px) {
+    .productInfo {
+      width: 66.66%; } }
 
 li {
   list-style: none; }
@@ -9773,8 +9782,7 @@ li {
 
 .nav {
   display: none;
-  padding-top: 65px;
-  margin-left: -150px; }
+  padding-top: 65px; }
   @media (min-width: 767px) {
     .nav {
       display: block; } }
