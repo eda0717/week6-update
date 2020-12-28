@@ -54,11 +54,11 @@
 }
 
 .productInfo {
-    width: 66.66%;
-}
+    width: 100%;
 
-.text-line-through {
-    text-decoration: line-through;
+    @media (min-width: 992px) {
+        width: 66.66%;
+    }
 }
 
 li {
